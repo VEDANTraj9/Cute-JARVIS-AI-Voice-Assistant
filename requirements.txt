@@ -1,0 +1,29 @@
+# Cute JARVIS AI Voice Assistant - Dependencies
+# Python 3.10+ required
+
+# Desktop GUI Framework
+PySide6>=6.6.0
+
+# AI & OpenAI LLM Client
+openai>=1.40.0
+
+# Speech-To-Text (Microphone input)
+SpeechRecognition>=3.10.4
+# Note: On Windows, PyAudio provides microphone stream access.
+# If wheels are missing on specific architectures: pip install pipwin && pipwin install pyaudio
+pyaudio>=0.2.14
+
+# Text-To-Speech (Microsoft Edge Neural Voices - Free & High Quality)
+edge-tts>=6.1.12
+
+# Audio Playback
+pygame>=2.5.2
+
+# Configuration & Environment Management
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# HTTP and Networking
+requests>=2.31.0
+aiohttp>=3.9.0
